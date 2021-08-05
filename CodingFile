@@ -1,0 +1,31 @@
+// * app must display whether a child is tall enough to ride the rollercoaster
+// * child must be over 52 inches to ride the rollercoaster
+// * stretch feature: height+age
+// * stretch feature: EITHER height OR age
+
+var height = 52;
+if (height > 52) {
+  console.log("Get on that ride, kiddo!");
+} else {
+  console.log("Sorry kiddo. Maybe next year.");
+}
+
+// * stretch feature 1 begins here
+
+var height = 52;
+var age = 10;
+if ((height > 52) && (age > 10)) {
+  console.log("Get on that ride, kiddo!");
+} else {
+  console.log("Sorry kiddo. Maybe next year.");
+}
+
+// * stretch feature 2 begins here
+
+var height = 52;
+var age = 10;
+if ((height > 52) || (age > 10)) {
+  console.log("Get on that ride, kiddo!");
+} else {
+  console.log("Sorry kiddo. Maybe next year.");
+}
